@@ -7,8 +7,8 @@ Prérequis:
 
  - Définition du capital d'investissement: 200€ (100€ sur Kraken.com, 100€ sur Bitstamp. Sur chaque site, on va acheter 50 de BTC au prix du marché. Peu importe le cout, c'est le capital pour notre entrée sur le marché.)
   Ce capitale d'investissement est déjà considéré comme perdu. Il a été décidé de jeter 200€ ds cette aventure et de ne pas regarder ce qu'il adviendra de cette somme.
-- Marché : BTC/EUR UNIQUEMENT ! 
-- Sites cibles : Kraken.com , Bitstamp.net (pour le moment, on se cantonne à 2 sites) 
+ - Marché : BTC/EUR UNIQUEMENT ! 
+ - Sites cibles : Kraken.com , Bitstamp.net (pour le moment, on se cantonne à 2 sites) 
 
 Procédure :
  - Recueil de données:
