@@ -1,8 +1,14 @@
 Here are the things to do to get that bot running
 
-1 - Create a library of functions (declaring most functions in a separate file to obfuscate the inner working of the bot)
-      Such library will include data collection (order books reading) , orders creation (buying and selling) , price calculation including fees in order to make sure the orders are actually profitable, arbitrage triggering (recognising arbitrage opportunity and triggering the orders of simultaneous buy and sell) and last but surely not least, the transfer of BTC from the trading account to a more secure location in order to prevent getting our BTC stolen if the account is hacked. 
-      One bump we might encounter the is API call limit set up by the sites (kraken.com and bitstamp.net) so there will probably be a need for a call limit checker or something of ths magnitude (define when the bot approach the limit for API call rate and maybe suspend activity temporarily) 
+1 - Create a library of functions (declaring most functions in a separate file to obfuscate the inner working of the bot).
+Such library will include : 
+ - data collection (order books reading)
+ - orders creation (buying and selling)
+ - price calculation including fees in order to make sure the orders are actually profitable
+ - arbitrage triggering (recognising arbitrage opportunity and triggering the orders of simultaneous buy and sell)
+ - transfer of BTC from the trading account to a more secure location in order to prevent getting our BTC stolen when the account is hacked. 
+      
+One bump we might encounter the is API call limit set up by the sites (kraken.com and bitstamp.net) so there will probably be a need for a call limit checker or something of like that (defines when the bot approach the limit for API call rate and maybe suspend activity temporarily) 
       
 2 - Create a bot logic making use of the afore mentionned library's function.
       For the arbitrage bot, the bot logic will be quite simple. No technical analysis needed. Just plain old arbitrage on one couple of assets. 
